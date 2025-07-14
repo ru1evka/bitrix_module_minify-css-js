@@ -1,0 +1,197 @@
+.adm-designed-checkbox {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.adm-designed-checkbox-label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 41px!important;
+    height: 16px!important;
+    border-radius: 20px;
+    background: red!important;
+}
+
+.adm-designed-checkbox-label:before {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    display: block;
+    content: "";
+    width: 12px!important;
+    height: 12px!important;
+    border-radius: 50%;
+    background: #fff;
+    transition: .3s;
+}
+
+.adm-designed-checkbox:checked + .adm-designed-checkbox-label {
+    background-color: green!important;
+}
+
+.adm-designed-checkbox:checked + .adm-designed-checkbox-label:before {
+    left: calc(100% - 15px);
+}
+
+.checkbox-wrapper input {
+    position: absolute;
+    opacity: 0;
+    сursor: pointer;
+}
+
+.checkbox-wrapper label {
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: -4px;
+    cursor: pointer;
+    font-size: 15px;
+    user-select: none;
+}
+
+.checkbox-wrapper span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #c9c9c9;
+    border-radius: 50%;
+}
+
+.checkbox-wrapper label input:checked ~ span {
+    background-color: #008000;
+}
+
+.checkbox-wrapper span:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-wrapper label input:checked ~ span:after {
+    display: block;
+}
+
+.checkbox-wrapper label span:after {
+    top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: white;
+}
+.internal{
+    position: relative;
+    top: 10px;
+}
+
+.gray-section, .gray-section_down,.gray-section_options{
+    background: #9b9c9d!important;
+}
+.gray-section_down:after{
+    background: url(/bitrix/modules/advantika.redirect/assets/img/gray-wave.png) top left repeat;
+    content: "";
+    display: block;
+    height: 7px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-position: 0 -7px;
+    left: 0px;
+    bottom: -7px;
+}
+
+.gray-section:before{
+    background: url(/bitrix/modules/advantika.redirect/assets/img/gray-wave.png) top left repeat;
+    content: "";
+    display: block;
+    height: 7px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: -7px;
+    left: 0px;
+}
+
+.gray-section:after{
+    background: url(/bitrix/modules/advantika.redirect/assets/img/gray-wave.png) top left repeat;
+    content: "";
+    display: block;
+    height: 7px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-position: 0 -7px;
+    left: 0px;
+    bottom: -7px;
+}
+
+.gray-section_options:before{
+    background: url(/bitrix/modules/advantika.redirect/assets/img/gray-wave.png) top left repeat;
+    content: "";
+    display: block;
+    height: 7px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: -7px;
+    left: 0px;
+}
+
+.gray-section label,.gray-section_down label{
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 0 rgba(64, 68, 70, 0.9);
+}
+
+.gray-section_options label{
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-shadow: 2px 1px 0 rgba(64, 68, 70, 0.9);
+}
+
+.adm-list-table-row.adm-list-row-active .adm-list-table-cell{
+    background-color: #e3e3e3;
+}
+.adm-detail-content-cell-l{
+    height: 30px!important;
+}
+
+.red{
+    border-bottom: 1px #d22c2c dashed;
+    color: #d22c2c;
+    text-shadow: 1px 1px 0 rgba(64, 68, 70, 0.9);
+}
+
+.red_titel{
+    border-bottom: 1px #d22c2c dashed;
+    color: #d22c2c;
+}
+
+.title_lable{
+    padding: 10px;
+    text-align: center;
+    display: block;
+    background: #dcdcdc;
+    font-size: 15px;
+    font-weight: 600;
+}
+.wrapp_title .title_lable.border_left{
+    border-radius: 10px 0px 0px;
+}
+.wrapp_title .title_lable.border_right{
+    border-radius: 0px 10px 0px 0px;;
+}
+.text-align_center{
+    text-align: center;
+}
