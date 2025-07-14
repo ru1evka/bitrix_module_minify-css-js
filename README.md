@@ -1,0 +1,1 @@
+# bitrix_module_minify-css-js
