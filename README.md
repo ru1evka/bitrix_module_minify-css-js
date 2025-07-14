@@ -10,7 +10,7 @@
 Процес может затянуться. Так как модуль будет сканировать каждый найденный файл, создавать новый и минифицировать его исходя из оригинала.
 
 # !!!!!!!!!!!!!
-# Минификация проиходить только по папкам /local/templateName", /bitrix/templates/templateName" /local/components",
+Минификация проиходить только по папкам /local/templateName", /bitrix/templates/templateName" /local/components",
 
 Для минифкици была использована сторонняя библиотека matthias-mullie-minify
 https://github.com/matthiasmullie/minify/
